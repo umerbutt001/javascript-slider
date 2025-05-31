@@ -1,0 +1,149 @@
+    #slider-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    #slider img {
+        width: 500px;
+        height: 500px;
+        display: none;
+        margin-top: 50px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    #slider img.active {
+        display: block;
+    }
+
+    #nextBtn {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 280px;
+        position: absolute;
+        right: 380px;
+    }
+
+    #backbtn {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 280px;
+        position: absolute;
+        left: 380px;
+    }
+
+    button {
+        background-color: #8DBCC7;
+    }
+
+
+
+
+    @media (max-width: 1025px) {
+        #slider img {
+            width: 50vw;
+            margin-top: 0px;
+            height: 450px;
+        }
+
+        #nextBtn {
+            right: 170px;
+            margin-top: 200px;
+        }
+
+        #backbtn {
+            left: 170px;
+            margin-top: 200px;
+        }
+
+    }
+
+
+
+
+    @media (max-width: 720px) {
+        #slider img {
+            width: 50vw;
+            margin-top: 0px;
+            height: 450px;
+        }
+
+        #nextBtn {
+            right: 100px;
+            margin-top: 200px;
+        }
+
+        #backbtn {
+            left: 100px;
+            margin-top: 200px;
+        }
+
+    }
+
+
+
+
+
+
+    @media (max-width: 600px) {
+        #slider img {
+            width: 90vw;
+            margin-top: 0px;
+            height: 450px;
+        }
+
+        #nextBtn {
+            right: 5px;
+            margin-top: 200px;
+        }
+
+        #backbtn {
+            left: 5px;
+            margin-top: 200px;
+        }
+
+    }
+
+
+
+    @media (max-width: 450px) {
+        #slider img {
+            width: 85vw;
+            margin-top: 0px;
+            height: 450px;
+        }
+
+        #nextBtn {
+            right: 0px;
+            margin-top: 200px;
+        }
+
+        #backbtn {
+            left: 0px;
+            margin-top: 200px;
+        }
+
+
+    }
+
+
+    @media (max-width: 380px) {
+        #slider img {
+            width: 80vw;
+            margin-top: 0px;
+            height: 450px;
+        }
+
+        #nextBtn {
+            right: 0px;
+            margin-top: 200px;
+        }
+
+        #backbtn {
+            left: 0px;
+            margin-top: 200px;
+        }
+    }
